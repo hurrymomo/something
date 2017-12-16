@@ -1,274 +1,229 @@
-Debug/main.o: ../main.cpp /usr/local/include/GL/glew.h \
-  ../../shared/include/GLFW/glfw3.h /usr/local/include/glm/glm.hpp \
-  /usr/local/include/glm/detail/_fixes.hpp \
-  /usr/local/include/glm/fwd.hpp \
-  /usr/local/include/glm/detail/type_int.hpp \
-  /usr/local/include/glm/detail/setup.hpp \
-  /usr/local/include/glm/detail/../simd/platform.h \
-  /usr/local/include/glm/detail/type_float.hpp \
-  /usr/local/include/glm/detail/type_vec.hpp \
-  /usr/local/include/glm/detail/precision.hpp \
-  /usr/local/include/glm/detail/type_mat.hpp \
-  /usr/local/include/glm/vec2.hpp \
-  /usr/local/include/glm/detail/type_vec2.hpp \
-  /usr/local/include/glm/detail/type_vec2.inl \
-  /usr/local/include/glm/vec3.hpp \
-  /usr/local/include/glm/detail/type_vec3.hpp \
-  /usr/local/include/glm/detail/type_vec3.inl \
-  /usr/local/include/glm/vec4.hpp \
-  /usr/local/include/glm/detail/type_vec4.hpp \
-  /usr/local/include/glm/detail/type_vec4.inl \
-  /usr/local/include/glm/detail/type_vec4_simd.inl \
-  /usr/local/include/glm/mat2x2.hpp \
-  /usr/local/include/glm/detail/type_mat2x2.hpp \
-  /usr/local/include/glm/detail/type_mat2x2.inl \
-  /usr/local/include/glm/detail/func_matrix.hpp \
-  /usr/local/include/glm/detail/../mat2x3.hpp \
-  /usr/local/include/glm/detail/type_mat2x3.hpp \
-  /usr/local/include/glm/detail/type_mat2x3.inl \
-  /usr/local/include/glm/detail/../mat2x4.hpp \
-  /usr/local/include/glm/detail/type_mat2x4.hpp \
-  /usr/local/include/glm/detail/type_mat2x4.inl \
-  /usr/local/include/glm/detail/../mat3x2.hpp \
-  /usr/local/include/glm/detail/type_mat3x2.hpp \
-  /usr/local/include/glm/detail/type_mat3x2.inl \
-  /usr/local/include/glm/detail/../mat3x3.hpp \
-  /usr/local/include/glm/detail/type_mat3x3.hpp \
-  /usr/local/include/glm/detail/type_mat3x3.inl \
-  /usr/local/include/glm/detail/../mat3x4.hpp \
-  /usr/local/include/glm/detail/type_mat3x4.hpp \
-  /usr/local/include/glm/detail/type_mat3x4.inl \
-  /usr/local/include/glm/detail/../mat4x2.hpp \
-  /usr/local/include/glm/detail/type_mat4x2.hpp \
-  /usr/local/include/glm/detail/type_mat4x2.inl \
-  /usr/local/include/glm/detail/../mat4x3.hpp \
-  /usr/local/include/glm/detail/type_mat4x3.hpp \
-  /usr/local/include/glm/detail/type_mat4x3.inl \
-  /usr/local/include/glm/detail/../mat4x4.hpp \
-  /usr/local/include/glm/detail/type_mat4x4.hpp \
-  /usr/local/include/glm/detail/type_mat4x4.inl \
-  /usr/local/include/glm/detail/type_mat4x4_simd.inl \
-  /usr/local/include/glm/detail/func_matrix.inl \
-  /usr/local/include/glm/detail/../geometric.hpp \
-  /usr/local/include/glm/detail/func_geometric.hpp \
-  /usr/local/include/glm/detail/func_geometric.inl \
-  /usr/local/include/glm/detail/func_exponential.hpp \
-  /usr/local/include/glm/detail/type_vec1.hpp \
-  /usr/local/include/glm/detail/type_vec1.inl \
-  /usr/local/include/glm/detail/func_exponential.inl \
-  /usr/local/include/glm/detail/func_vector_relational.hpp \
-  /usr/local/include/glm/detail/func_vector_relational.inl \
-  /usr/local/include/glm/detail/func_vector_relational_simd.inl \
-  /usr/local/include/glm/detail/_vectorize.hpp \
-  /usr/local/include/glm/detail/func_exponential_simd.inl \
-  /usr/local/include/glm/detail/../simd/exponential.h \
-  /usr/local/include/glm/detail/func_common.hpp \
-  /usr/local/include/glm/detail/func_common.inl \
-  /usr/local/include/glm/detail/func_common_simd.inl \
-  /usr/local/include/glm/detail/../simd/common.h \
-  /usr/local/include/glm/detail/func_geometric_simd.inl \
-  /usr/local/include/glm/detail/../simd/geometric.h \
-  /usr/local/include/glm/detail/func_matrix_simd.inl \
-  /usr/local/include/glm/detail/../simd/matrix.h \
-  /usr/local/include/glm/trigonometric.hpp \
-  /usr/local/include/glm/detail/func_trigonometric.hpp \
-  /usr/local/include/glm/detail/func_trigonometric.inl \
-  /usr/local/include/glm/detail/func_trigonometric_simd.inl \
-  /usr/local/include/glm/exponential.hpp \
-  /usr/local/include/glm/common.hpp /usr/local/include/glm/packing.hpp \
-  /usr/local/include/glm/detail/func_packing.hpp \
-  /usr/local/include/glm/detail/func_packing.inl \
-  /usr/local/include/glm/detail/type_half.hpp \
-  /usr/local/include/glm/detail/type_half.inl \
-  /usr/local/include/glm/detail/func_packing_simd.inl \
-  /usr/local/include/glm/matrix.hpp \
-  /usr/local/include/glm/vector_relational.hpp \
-  /usr/local/include/glm/integer.hpp \
-  /usr/local/include/glm/detail/func_integer.hpp \
-  /usr/local/include/glm/detail/func_integer.inl \
-  /usr/local/include/glm/detail/func_integer_simd.inl \
-  /usr/local/include/glm/detail/../simd/integer.h
+Debug/Main.o: ../Main.cpp ../../shared/include/GL/glew.h \
+  ../../shared/include/GLFW/glfw3.h ../../shared/include/glm/glm.hpp \
+  ../../shared/include/glm/detail/_fixes.hpp \
+  ../../shared/include/glm/fwd.hpp \
+  ../../shared/include/glm/detail/type_int.hpp \
+  ../../shared/include/glm/detail/setup.hpp \
+  ../../shared/include/glm/detail/type_float.hpp \
+  ../../shared/include/glm/detail/type_vec.hpp \
+  ../../shared/include/glm/detail/precision.hpp \
+  ../../shared/include/glm/detail/type_mat.hpp \
+  ../../shared/include/glm/vec2.hpp \
+  ../../shared/include/glm/detail/type_vec2.hpp \
+  ../../shared/include/glm/detail/type_vec2.inl \
+  ../../shared/include/glm/vec3.hpp \
+  ../../shared/include/glm/detail/type_vec3.hpp \
+  ../../shared/include/glm/detail/type_vec3.inl \
+  ../../shared/include/glm/vec4.hpp \
+  ../../shared/include/glm/detail/type_vec4.hpp \
+  ../../shared/include/glm/detail/type_vec4.inl \
+  ../../shared/include/glm/mat2x2.hpp \
+  ../../shared/include/glm/detail/type_mat2x2.hpp \
+  ../../shared/include/glm/detail/type_mat2x2.inl \
+  ../../shared/include/glm/mat2x3.hpp \
+  ../../shared/include/glm/detail/type_mat2x3.hpp \
+  ../../shared/include/glm/detail/type_mat2x3.inl \
+  ../../shared/include/glm/mat2x4.hpp \
+  ../../shared/include/glm/detail/type_mat2x4.hpp \
+  ../../shared/include/glm/detail/type_mat2x4.inl \
+  ../../shared/include/glm/mat3x2.hpp \
+  ../../shared/include/glm/detail/type_mat3x2.hpp \
+  ../../shared/include/glm/detail/type_mat3x2.inl \
+  ../../shared/include/glm/mat3x3.hpp \
+  ../../shared/include/glm/detail/type_mat3x3.hpp \
+  ../../shared/include/glm/detail/type_mat3x3.inl \
+  ../../shared/include/glm/mat3x4.hpp \
+  ../../shared/include/glm/detail/type_mat3x4.hpp \
+  ../../shared/include/glm/detail/type_mat3x4.inl \
+  ../../shared/include/glm/mat4x2.hpp \
+  ../../shared/include/glm/detail/type_mat4x2.hpp \
+  ../../shared/include/glm/detail/type_mat4x2.inl \
+  ../../shared/include/glm/mat4x3.hpp \
+  ../../shared/include/glm/detail/type_mat4x3.hpp \
+  ../../shared/include/glm/detail/type_mat4x3.inl \
+  ../../shared/include/glm/mat4x4.hpp \
+  ../../shared/include/glm/detail/type_mat4x4.hpp \
+  ../../shared/include/glm/detail/type_mat4x4.inl \
+  ../../shared/include/glm/trigonometric.hpp \
+  ../../shared/include/glm/detail/func_trigonometric.hpp \
+  ../../shared/include/glm/detail/func_trigonometric.inl \
+  ../../shared/include/glm/detail/_vectorize.hpp \
+  ../../shared/include/glm/detail/type_vec1.hpp \
+  ../../shared/include/glm/detail/type_vec1.inl \
+  ../../shared/include/glm/exponential.hpp \
+  ../../shared/include/glm/detail/func_exponential.hpp \
+  ../../shared/include/glm/detail/func_exponential.inl \
+  ../../shared/include/glm/detail/func_vector_relational.hpp \
+  ../../shared/include/glm/detail/func_vector_relational.inl \
+  ../../shared/include/glm/common.hpp \
+  ../../shared/include/glm/detail/func_common.hpp \
+  ../../shared/include/glm/detail/func_common.inl \
+  ../../shared/include/glm/packing.hpp \
+  ../../shared/include/glm/detail/func_packing.hpp \
+  ../../shared/include/glm/detail/func_packing.inl \
+  ../../shared/include/glm/detail/type_half.hpp \
+  ../../shared/include/glm/detail/type_half.inl \
+  ../../shared/include/glm/geometric.hpp \
+  ../../shared/include/glm/detail/func_geometric.hpp \
+  ../../shared/include/glm/detail/func_geometric.inl \
+  ../../shared/include/glm/matrix.hpp \
+  ../../shared/include/glm/detail/func_matrix.hpp \
+  ../../shared/include/glm/detail/func_matrix.inl \
+  ../../shared/include/glm/vector_relational.hpp \
+  ../../shared/include/glm/integer.hpp \
+  ../../shared/include/glm/detail/func_integer.hpp \
+  ../../shared/include/glm/detail/func_integer.inl ../ShaderProgram.hpp
 
-/usr/local/include/GL/glew.h:
+../../shared/include/GL/glew.h:
 
 ../../shared/include/GLFW/glfw3.h:
 
-/usr/local/include/glm/glm.hpp:
+../../shared/include/glm/glm.hpp:
 
-/usr/local/include/glm/detail/_fixes.hpp:
+../../shared/include/glm/detail/_fixes.hpp:
 
-/usr/local/include/glm/fwd.hpp:
+../../shared/include/glm/fwd.hpp:
 
-/usr/local/include/glm/detail/type_int.hpp:
+../../shared/include/glm/detail/type_int.hpp:
 
-/usr/local/include/glm/detail/setup.hpp:
+../../shared/include/glm/detail/setup.hpp:
 
-/usr/local/include/glm/detail/../simd/platform.h:
+../../shared/include/glm/detail/type_float.hpp:
 
-/usr/local/include/glm/detail/type_float.hpp:
+../../shared/include/glm/detail/type_vec.hpp:
 
-/usr/local/include/glm/detail/type_vec.hpp:
+../../shared/include/glm/detail/precision.hpp:
 
-/usr/local/include/glm/detail/precision.hpp:
+../../shared/include/glm/detail/type_mat.hpp:
 
-/usr/local/include/glm/detail/type_mat.hpp:
+../../shared/include/glm/vec2.hpp:
 
-/usr/local/include/glm/vec2.hpp:
+../../shared/include/glm/detail/type_vec2.hpp:
 
-/usr/local/include/glm/detail/type_vec2.hpp:
+../../shared/include/glm/detail/type_vec2.inl:
 
-/usr/local/include/glm/detail/type_vec2.inl:
+../../shared/include/glm/vec3.hpp:
 
-/usr/local/include/glm/vec3.hpp:
+../../shared/include/glm/detail/type_vec3.hpp:
 
-/usr/local/include/glm/detail/type_vec3.hpp:
+../../shared/include/glm/detail/type_vec3.inl:
 
-/usr/local/include/glm/detail/type_vec3.inl:
+../../shared/include/glm/vec4.hpp:
 
-/usr/local/include/glm/vec4.hpp:
+../../shared/include/glm/detail/type_vec4.hpp:
 
-/usr/local/include/glm/detail/type_vec4.hpp:
+../../shared/include/glm/detail/type_vec4.inl:
 
-/usr/local/include/glm/detail/type_vec4.inl:
+../../shared/include/glm/mat2x2.hpp:
 
-/usr/local/include/glm/detail/type_vec4_simd.inl:
+../../shared/include/glm/detail/type_mat2x2.hpp:
 
-/usr/local/include/glm/mat2x2.hpp:
+../../shared/include/glm/detail/type_mat2x2.inl:
 
-/usr/local/include/glm/detail/type_mat2x2.hpp:
+../../shared/include/glm/mat2x3.hpp:
 
-/usr/local/include/glm/detail/type_mat2x2.inl:
+../../shared/include/glm/detail/type_mat2x3.hpp:
 
-/usr/local/include/glm/detail/func_matrix.hpp:
+../../shared/include/glm/detail/type_mat2x3.inl:
 
-/usr/local/include/glm/detail/../mat2x3.hpp:
+../../shared/include/glm/mat2x4.hpp:
 
-/usr/local/include/glm/detail/type_mat2x3.hpp:
+../../shared/include/glm/detail/type_mat2x4.hpp:
 
-/usr/local/include/glm/detail/type_mat2x3.inl:
+../../shared/include/glm/detail/type_mat2x4.inl:
 
-/usr/local/include/glm/detail/../mat2x4.hpp:
+../../shared/include/glm/mat3x2.hpp:
 
-/usr/local/include/glm/detail/type_mat2x4.hpp:
+../../shared/include/glm/detail/type_mat3x2.hpp:
 
-/usr/local/include/glm/detail/type_mat2x4.inl:
+../../shared/include/glm/detail/type_mat3x2.inl:
 
-/usr/local/include/glm/detail/../mat3x2.hpp:
+../../shared/include/glm/mat3x3.hpp:
 
-/usr/local/include/glm/detail/type_mat3x2.hpp:
+../../shared/include/glm/detail/type_mat3x3.hpp:
 
-/usr/local/include/glm/detail/type_mat3x2.inl:
+../../shared/include/glm/detail/type_mat3x3.inl:
 
-/usr/local/include/glm/detail/../mat3x3.hpp:
+../../shared/include/glm/mat3x4.hpp:
 
-/usr/local/include/glm/detail/type_mat3x3.hpp:
+../../shared/include/glm/detail/type_mat3x4.hpp:
 
-/usr/local/include/glm/detail/type_mat3x3.inl:
+../../shared/include/glm/detail/type_mat3x4.inl:
 
-/usr/local/include/glm/detail/../mat3x4.hpp:
+../../shared/include/glm/mat4x2.hpp:
 
-/usr/local/include/glm/detail/type_mat3x4.hpp:
+../../shared/include/glm/detail/type_mat4x2.hpp:
 
-/usr/local/include/glm/detail/type_mat3x4.inl:
+../../shared/include/glm/detail/type_mat4x2.inl:
 
-/usr/local/include/glm/detail/../mat4x2.hpp:
+../../shared/include/glm/mat4x3.hpp:
 
-/usr/local/include/glm/detail/type_mat4x2.hpp:
+../../shared/include/glm/detail/type_mat4x3.hpp:
 
-/usr/local/include/glm/detail/type_mat4x2.inl:
+../../shared/include/glm/detail/type_mat4x3.inl:
 
-/usr/local/include/glm/detail/../mat4x3.hpp:
+../../shared/include/glm/mat4x4.hpp:
 
-/usr/local/include/glm/detail/type_mat4x3.hpp:
+../../shared/include/glm/detail/type_mat4x4.hpp:
 
-/usr/local/include/glm/detail/type_mat4x3.inl:
+../../shared/include/glm/detail/type_mat4x4.inl:
 
-/usr/local/include/glm/detail/../mat4x4.hpp:
+../../shared/include/glm/trigonometric.hpp:
 
-/usr/local/include/glm/detail/type_mat4x4.hpp:
+../../shared/include/glm/detail/func_trigonometric.hpp:
 
-/usr/local/include/glm/detail/type_mat4x4.inl:
+../../shared/include/glm/detail/func_trigonometric.inl:
 
-/usr/local/include/glm/detail/type_mat4x4_simd.inl:
+../../shared/include/glm/detail/_vectorize.hpp:
 
-/usr/local/include/glm/detail/func_matrix.inl:
+../../shared/include/glm/detail/type_vec1.hpp:
 
-/usr/local/include/glm/detail/../geometric.hpp:
+../../shared/include/glm/detail/type_vec1.inl:
 
-/usr/local/include/glm/detail/func_geometric.hpp:
+../../shared/include/glm/exponential.hpp:
 
-/usr/local/include/glm/detail/func_geometric.inl:
+../../shared/include/glm/detail/func_exponential.hpp:
 
-/usr/local/include/glm/detail/func_exponential.hpp:
+../../shared/include/glm/detail/func_exponential.inl:
 
-/usr/local/include/glm/detail/type_vec1.hpp:
+../../shared/include/glm/detail/func_vector_relational.hpp:
 
-/usr/local/include/glm/detail/type_vec1.inl:
+../../shared/include/glm/detail/func_vector_relational.inl:
 
-/usr/local/include/glm/detail/func_exponential.inl:
+../../shared/include/glm/common.hpp:
 
-/usr/local/include/glm/detail/func_vector_relational.hpp:
+../../shared/include/glm/detail/func_common.hpp:
 
-/usr/local/include/glm/detail/func_vector_relational.inl:
+../../shared/include/glm/detail/func_common.inl:
 
-/usr/local/include/glm/detail/func_vector_relational_simd.inl:
+../../shared/include/glm/packing.hpp:
 
-/usr/local/include/glm/detail/_vectorize.hpp:
+../../shared/include/glm/detail/func_packing.hpp:
 
-/usr/local/include/glm/detail/func_exponential_simd.inl:
+../../shared/include/glm/detail/func_packing.inl:
 
-/usr/local/include/glm/detail/../simd/exponential.h:
+../../shared/include/glm/detail/type_half.hpp:
 
-/usr/local/include/glm/detail/func_common.hpp:
+../../shared/include/glm/detail/type_half.inl:
 
-/usr/local/include/glm/detail/func_common.inl:
+../../shared/include/glm/geometric.hpp:
 
-/usr/local/include/glm/detail/func_common_simd.inl:
+../../shared/include/glm/detail/func_geometric.hpp:
 
-/usr/local/include/glm/detail/../simd/common.h:
+../../shared/include/glm/detail/func_geometric.inl:
 
-/usr/local/include/glm/detail/func_geometric_simd.inl:
+../../shared/include/glm/matrix.hpp:
 
-/usr/local/include/glm/detail/../simd/geometric.h:
+../../shared/include/glm/detail/func_matrix.hpp:
 
-/usr/local/include/glm/detail/func_matrix_simd.inl:
+../../shared/include/glm/detail/func_matrix.inl:
 
-/usr/local/include/glm/detail/../simd/matrix.h:
+../../shared/include/glm/vector_relational.hpp:
 
-/usr/local/include/glm/trigonometric.hpp:
+../../shared/include/glm/integer.hpp:
 
-/usr/local/include/glm/detail/func_trigonometric.hpp:
+../../shared/include/glm/detail/func_integer.hpp:
 
-/usr/local/include/glm/detail/func_trigonometric.inl:
+../../shared/include/glm/detail/func_integer.inl:
 
-/usr/local/include/glm/detail/func_trigonometric_simd.inl:
-
-/usr/local/include/glm/exponential.hpp:
-
-/usr/local/include/glm/common.hpp:
-
-/usr/local/include/glm/packing.hpp:
-
-/usr/local/include/glm/detail/func_packing.hpp:
-
-/usr/local/include/glm/detail/func_packing.inl:
-
-/usr/local/include/glm/detail/type_half.hpp:
-
-/usr/local/include/glm/detail/type_half.inl:
-
-/usr/local/include/glm/detail/func_packing_simd.inl:
-
-/usr/local/include/glm/matrix.hpp:
-
-/usr/local/include/glm/vector_relational.hpp:
-
-/usr/local/include/glm/integer.hpp:
-
-/usr/local/include/glm/detail/func_integer.hpp:
-
-/usr/local/include/glm/detail/func_integer.inl:
-
-/usr/local/include/glm/detail/func_integer_simd.inl:
-
-/usr/local/include/glm/detail/../simd/integer.h:
+../ShaderProgram.hpp:
