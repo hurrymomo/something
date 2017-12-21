@@ -7,12 +7,12 @@ class ShaderProgram{
 public:
 	ShaderProgram();
 	~ShaderProgram();
-	void generateShaderProgramObject();
-	void attachToShaderProgramObject(GLuint shader, const char* filePath);
+	void generateShaderProgram();
+	void attachToShaderProgram(GLuint shader, const char* filePath);
 	void link();
-	GLuint getProgramObject();
+	GLuint getShaderProgram();
 private:
-	GLuint programObject;
+	GLuint program;
 	GLuint vertexShader, fragmentShader;
 
 };

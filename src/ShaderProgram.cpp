@@ -11,21 +11,21 @@ using std::endl;
 using std::ifstream;
 
 ShaderProgram::ShaderProgram()
-	:programObject(0)
+	:program(0)
 {}
 ShaderProgram::~ShaderProgram(){
 }
-GLuint ShaderProgram::getProgramObject(){
-	return programObject;
+GLuint ShaderProgram::getShaderProgram(){
+	return program;
 }
 
-void ShaderProgram::generateShaderProgramObject(){
-	if(programObject == 0){
-		programObject = glCreateProgram();
+void ShaderProgram::generateShaderProgram(){
+	if(program == 0){
+		program = glCreateProgram();
 	}
 }
 
-void ShaderProgram::attachToShaderProgramObject(GLuint shader, const char* filePath){
+void ShaderProgram::attachToShaderProgram(GLuint shader, const char* filePath){
 	GLuint currentID;
 	cerr<<"loading "<<filePath<<endl;
 	switch(shader){
@@ -77,22 +77,22 @@ void ShaderProgram::link(){
 	
 	// Link the program
 	printf("Linking program\n");
-	glAttachShader(programObject, vertexShader);
-	glAttachShader(programObject, fragmentShader);
-	glLinkProgram(programObject);
+	glAttachShader(program, vertexShader);
+	glAttachShader(program, fragmentShader);
+	glLinkProgram(program);
 
 	// Check the program
-	glGetProgramiv(programObject, GL_LINK_STATUS, &Result);
-	glGetProgramiv(programObject, GL_INFO_LOG_LENGTH, &InfoLogLength);
+	glGetProgramiv(program, GL_LINK_STATUS, &Result);
+	glGetProgramiv(program, GL_INFO_LOG_LENGTH, &InfoLogLength);
 	if ( InfoLogLength > 0 ){
 		std::vector<char> ProgramErrorMessage(InfoLogLength+1);
-		glGetProgramInfoLog(programObject, InfoLogLength, NULL, &ProgramErrorMessage[0]);
+		glGetProgramInfoLog(program, InfoLogLength, NULL, &ProgramErrorMessage[0]);
 		printf("%s\n", &ProgramErrorMessage[0]);
 	}
 
 	
-	glDetachShader(programObject, vertexShader);
-	glDetachShader(programObject, fragmentShader);
+	glDetachShader(program, vertexShader);
+	glDetachShader(program, fragmentShader);
 	
 	glDeleteShader(vertexShader);
 	glDeleteShader(fragmentShader);
